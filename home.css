@@ -1,0 +1,70 @@
+body {
+  background-image: url("background.png");
+  background-repeat: no-repeat;
+  background-size: cover; /* makes image cover entire area */
+  background-position: center; /* centers the image */
+  background-attachment: fixed; /* optional: makes background fixed while scrolling */
+  font-family: Arial, sans-serif;
+  /* Gradient background */
+  /* background: white; */
+  margin-top: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Container {
+  max-width: 500px;
+  width: 90%;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+button {
+  justify-content: center;
+  align-items: center;
+  margin: 15px 10px;
+  padding: 10px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  background-color: #007bff;
+  transition: background-color 0.3s ease;
+}
+
+#language {
+  padding: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.lang-select-bar {
+  margin-top: 15px;
+  text-align: center;
+}
+
+#icon {
+  width: 250px;
+  height: 250px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  margin-left: 130px;
+}

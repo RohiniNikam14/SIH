@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title data-i18n="title">Welcome to MIGRANTcare</title>
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  
+  <body>
+    <div class="Container">
+      <img id="icon" src="ICON.png" alt="MigrantCare Logo" />
+      <div class="container">
+        <h1 class="title" id="title" data-i18n="title"></h1>
+        <p class="subtitle" id="subtitle" data-i18n="subtitle"></p>
+        <div class="buttons" id="buttons">
+          <button id="login" class="btn" data-i18n="loginBtn"></button>
+          <button id="signup" class="btn" data-i18n="signupBtn"></button>
+        </div>
+      </div>
+      <div class="lang-select-bar">
+        <label for="language" id="language-label" data-i18n="selectLanguage">Select Language: </label>
+        <select id="language"></select>
+      </div>
+    </div>
+    <script src="translations.js"></script>
+    <script src="home.js"></script>
+  </body>
+</html>
+
+

@@ -1,0 +1,80 @@
+body {
+      font-family: Arial, sans-serif;
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-image: url("background.png");
+  background-repeat: no-repeat;
+  background-size: cover; /* makes image cover entire area */
+  background-position: center; /* centers the image */
+  background-attachment: fixed; /* optional: makes background fixed while scrolling */
+    }
+    .Icon{
+        width: 200px;
+        margin-bottom: 0;
+        padding: 0;
+    }
+#language{
+    padding: 10px;
+}
+    .Arrow{
+        width: 60px;
+        margin-left: 10px;
+        vertical-align: middle;
+    }
+    /* form{
+      display: flex;
+      flex-direction: column;
+    } */
+    .container {
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
+      width: 350px;
+      text-align: center;
+    }
+    h2 {
+      margin-bottom: 20px;
+      color: #333;
+    }
+    input {
+      width: 93%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+    button {
+      width: 100%;
+      padding: 12px;
+      background: #679cc7;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+    button:hover {
+      background: #2a5c73;
+    }
+    p {
+      margin-top: 25px;
+      font-size: 17px;
+        color: #555;
+        margin-left: 280px;
+        margin-top: 5px;
+      
+    }
+    a {
+      color: #248ddd;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }

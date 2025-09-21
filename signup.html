@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n="signupTitle">Signup</title>
+  <link rel="stylesheet" href="signup.css" />
+</head>
+<body>
+  <div class="container">
+    <img class="Icon" src="ICON.png" alt="icon" />
+    <form>
+      <input type="text" placeholder="" data-i18n-placeholder="patientName" required />
+      <div style="display: flex; gap: 40px;">
+        <input type="text" placeholder="" data-i18n-placeholder="age" required />
+        <input type="text" placeholder="" data-i18n-placeholder="bloodGroup" required />
+      </div>
+      <div style="display: flex; gap: 40px;">
+        <input type="text" placeholder="" data-i18n-placeholder="height" required />
+        <input type="text" placeholder="" data-i18n-placeholder="weight" required />
+      </div>
+      <input type="text" placeholder="" data-i18n-placeholder="currentDisease" required />
+      <input type="text" placeholder="" data-i18n-placeholder="mobileNumber" required />
+      <input type="text" placeholder="" data-i18n-placeholder="permanentAddress" required />
+      <input type="text" placeholder="" data-i18n-placeholder="currentAddress" required />
+      <button type="submit" data-i18n="generateIdBtn">Generate Your ID</button>
+    </form>
+    <p>
+      <a href="login.html"><img class="Arrow" src="Arrow.png" alt="Arrow" /></a>
+    </p>
+    <div class="lang-select-bar">
+      <label for="language" data-i18n="selectLanguage">Select Language: </label>
+      <select id="language"></select>
+    </div>
+  </div>
+  <script src="translations.js"></script>
+  <script src="signup.js"></script>
+</body>
+</html>
